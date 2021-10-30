@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../image/pic04.jpg);
+}
+.book{
+    position: absolute;
+    z-index: -1;
+    width: 1200px;
+    height: 700px;
+    margin: 30px 160px;
+}
+.video{
+    position: absolute;
+    z-index: 1;
+    color: cornflowerblue;
+    margin-top: 60px;
+    font-size: 45px;
+    margin-left: 425px;
+    font-family: "標楷體";
+}
+.bts{
+    position: absolute;
+    z-index: 1;
+    color: darkcyan;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-left: 950px;
+    font-family: "標楷體";
+}
+.pen{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
