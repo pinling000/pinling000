@@ -1,0 +1,49 @@
+body{
+    background-color: midnightblue;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    position: relative;
+    width: 1500px;
+    height: 750px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    position: absolute;
+    z-index: -1;
+    width: 1500px;
+    height: 750px; 
+    margin-top: 100px;
+}
+
+.content{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+
+.contents{
+    padding-right: 260px;
+}
+
+.contents h1,ol{
+    text-align: center;
+}
+
+.contents a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.video{
+    padding-left: 10px;
+}

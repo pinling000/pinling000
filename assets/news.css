@@ -1,0 +1,300 @@
+body{
+    background-color: rgb(38, 56, 83);
+}
+
+.link{
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+}
+a{text-decoration: none;}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 430px;
+}
+
+.content{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    font-family: 微軟正黑體;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+
+h2{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 微軟正黑體;
+}
+
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.time{
+    padding: 10px;
+}
+
+.slides{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 0;
+    background-color: #eee;
+    overflow: hidden;
+    float: left;
+}
+
+img.slide{
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica";
+    font-size: 120px;
+    color: #fff;
+    transition: .5s transform ease-in-out;
+}
+
+.slide:nth-of-type(2) {
+    left: 100%;
+}
+
+.slide:nth-of-type(3) {
+    left: 200%;
+}
+
+.slide:nth-of-type(4) {
+    left: 300%;
+}
+
+input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+
+.controls-visible {
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    text-align: center;
+}
+
+.controls-visible label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2px solid #fff;
+}
+
+.slides input[type="radio"]:nth-of-type(1):checked ~ .controls-visible label:nth-of-type(1) {
+    background-color: #333;
+}
+
+.slides input[type="radio"]:nth-of-type(2):checked ~ .controls-visible label:nth-of-type(2) {
+    background-color: #333;
+}
+
+.slides input[type="radio"]:nth-of-type(3):checked ~ .controls-visible label:nth-of-type(3) {
+    background-color: #333;
+}
+
+.slides input[type="radio"]:nth-of-type(4):checked ~ .controls-visible label:nth-of-type(4) {
+    background-color: #333;
+}
+
+.slides input[type="radio"]:nth-of-type(1):checked ~ .slide {
+    
+    transform: translatex(0%);
+}
+
+.slides input[type="radio"]:nth-of-type(2):checked ~ .slide {
+    transform: translatex(-100%);
+}
+
+.slides input[type="radio"]:nth-of-type(3):checked ~ .slide {
+    transform: translatex(-200%);
+}
+
+.slides input[type="radio"]:nth-of-type(4):checked ~ .slide {
+    transform: translatex(-300%);
+}
+
+.news{
+    list-style: none;
+}
+
+.lasted-news{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    width: 580px;
+}
+
+#odd{
+    background-color: lightcyan;
+    height: 80px;
+    font-family: 微軟正黑體;
+    font-weight: bold;  
+    border-radius: 10px;
+}
+
+#odd p{
+    color:  rgb(65, 63, 63)
+}
+
+#odd a{
+    color:  rgb(65, 63, 63)
+}
+
+#even{
+    height: 80px;
+    font-family: 微軟正黑體;
+    font-weight: normal;   
+}
+
+#even p{
+    color:  whitesmoke
+}
+
+#even a{
+    color: whitesmoke;
+}
+
+p{
+    margin: 0;
+}
+
+.more{
+    display: flex;
+    justify-content: flex-end;
+    color: cornsilk;
+    font-family: 微軟正黑體;
+}
+.more:hover{
+    color:rgb(255, 191, 30);
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 5px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button{
+    border: 0;
+    background-color: rgb(255, 204, 65);
+    color: rgb(65, 63, 63);
+    border-radius:10px;
+    padding: 5px;
+    cursor:pointer;
+    font-size: 15px;
+    font-family: 微軟正黑體;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.button:hover{
+    color:#183f49;
+    background-color:#fff;
+    border:2px #1c4c5f solid;
+}
+
+.icon{
+    border: 0;
+    background-color: rgb(255, 204, 65);
+    color:rgb(65, 63, 63);
+    width: 85px;
+    height: 20px;
+    border-radius:10px;
+    font-size: 16px;
+    font-family: 微軟正黑體;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.tele{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.tele>p{
+    margin: 5px;
+    font-family: 微軟正黑體;
+}
+
+.address>p{
+    margin: 10px;
+    font-family: 微軟正黑體;
+}
+
+h3,h3>p{
+    font-size: 20px;
+    font-family: 微軟正黑體;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+/*.rect>h3::before{
+    content: '';
+    position: relative;
+    border-left: 10px solid white;
+    top: 0px;
+    left: -10px;
+}*/
+
+h3{
+    border-left: 10px solid white;
+    font-family: 微軟正黑體;
+}
