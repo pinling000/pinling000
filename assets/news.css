@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(38, 56, 83);
+    background-color: midnightblue;
 }
 
 .link{
@@ -8,8 +8,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: 微軟正黑體;
-    font-weight: bold;
 }
 a{text-decoration: none;}
 
@@ -27,25 +25,23 @@ a{text-decoration: none;}
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid whitesmoke;
+    border: solid mediumpurple;
     border-radius: 25px;
-    font-family: 微軟正黑體;
 }
 
 h1{
-    color: whitesmoke;
+    color: #99BBFF;
 }
 
 
 h2{
     font-size: 30px;
-    color: whitesmoke;
-    font-family: 微軟正黑體;
+    color: #99BBFF;
 }
 
 span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: whitesmoke;
+    color: #CCEEFF;
     font-size: 25px;
 }
 
@@ -170,31 +166,26 @@ ol{
 #odd{
     background-color: lightcyan;
     height: 80px;
-    font-family: 微軟正黑體;
-    font-weight: bold;  
-    border-radius: 10px;
 }
 
 #odd p{
-    color:  rgb(65, 63, 63)
+    color: rgb(180, 12, 12);
 }
 
 #odd a{
-    color:  rgb(65, 63, 63)
+    color: rgb(233, 4, 4);
 }
 
 #even{
     height: 80px;
-    font-family: 微軟正黑體;
-    font-weight: normal;   
 }
 
 #even p{
-    color:  whitesmoke
+    color: rgb(202, 202, 202);
 }
 
 #even a{
-    color: whitesmoke;
+    color: rgb(202, 202, 202);
 }
 
 p{
@@ -205,10 +196,9 @@ p{
     display: flex;
     justify-content: flex-end;
     color: cornsilk;
-    font-family: 微軟正黑體;
 }
 .more:hover{
-    color:rgb(255, 191, 30);
+    color: red;
     text-decoration: underline;
 }
 
@@ -223,32 +213,32 @@ p{
 
 .button{
     border: 0;
-    background-color: rgb(255, 204, 65);
-    color: rgb(65, 63, 63);
+    background-color: #9999FF;
+    color:#fff;
     border-radius:10px;
     padding: 5px;
     cursor:pointer;
     font-size: 15px;
-    font-family: 微軟正黑體;
+    font-family: "標楷體";
     font-weight: bolder;
     margin: 10px;
 }
 
 .button:hover{
-    color:#183f49;
+    color:#9999FF;
     background-color:#fff;
-    border:2px #1c4c5f solid;
+    border:2px #9999FF solid;
 }
 
 .icon{
     border: 0;
-    background-color: rgb(255, 204, 65);
-    color:rgb(65, 63, 63);
+    background-color: #9999FF;
+    color:#fff;
     width: 85px;
     height: 20px;
     border-radius:10px;
     font-size: 16px;
-    font-family: 微軟正黑體;
+    font-family: "標楷體";
     font-weight: bolder;
     padding: 5px;
 }
@@ -261,17 +251,14 @@ p{
 
 .tele>p{
     margin: 5px;
-    font-family: 微軟正黑體;
 }
 
 .address>p{
     margin: 10px;
-    font-family: 微軟正黑體;
 }
 
 h3,h3>p{
     font-size: 20px;
-    font-family: 微軟正黑體;
 }
 
 .buttons{
@@ -296,5 +283,4 @@ h3,h3>p{
 
 h3{
     border-left: 10px solid white;
-    font-family: 微軟正黑體;
 }

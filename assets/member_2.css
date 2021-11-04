@@ -1,5 +1,7 @@
 body{
     background-color: midnightblue;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .root{
@@ -9,11 +11,11 @@ body{
 }
 
 .item{
-    position: relative;
+    /*position: relative;*/
     width: 1500px;
     height: 900px;
-    margin: 25px;
-    display: flex;
+    /*margin: 25px;
+    display: flex;*/
 }
 
 .book{

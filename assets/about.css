@@ -1,13 +1,12 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(38, 56, 83);
+    background-image: url(../image/pic04.jpg);
 }
 h1{
     font-size: 45px;
-    color: whitesmoke;
+    color: 	#550088;
     text-align: center;
-    font-family: 微軟正黑體;
 }
 .link{
     margin-top: 40px;
@@ -17,8 +16,6 @@ h1{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
-    font-family: 微軟正黑體;
-
 }
 iframe{
     margin-top: 15px;
@@ -27,54 +24,43 @@ iframe{
     padding-right: 30px;
 }
 h2{
-    color: rgb(36, 35, 35);
-    font-family: 微軟正黑體;
-    background-color: rgb(255, 204, 65);
-    text-align: center;
+    color: #D1BBFF;
 }
 .name{
     margin-right: 200px;
     padding-left: 20px;
     margin-left: 790px;
-    font-family: 微軟正黑體;
 }
 .name p{
     font-size: 20px;
-    color: whitesmoke;
-    font-family: 微軟正黑體;
-    line-height: 200%;
+    font-family: "標楷體";
+    color: #FFFFFF;
 }
 table{
     clear: both;
     margin-left: 200px;
     font-size: 18px;
-    font-family: 微軟正黑體;
 }
 .building{
     clear: both;
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 20px;
-    font-family: 微軟正黑體;
-    line-height: 200%;
 }
 .building p{
-    color: whitesmoke;
+    color: #FFFFFF;
+    font-family: "標楷體";
     font-size: 20px;
-    font-family: 微軟正黑體;
 }
 th{
-    background-color: #005aad;
-    font-family: 微軟正黑體;
-    color: whitesmoke;
+    background-color: #550088;
+    color: #D1BBFF;
 }
 td{
-    background-color: #a1d2ffd7;
-    font-family: 微軟正黑體;
-    color: rgb(36, 36, 36);
+    background-color: #e8ccffd7;
+    font-family: "標楷體";
 }
 
 .table a:visited{
     color: #0015d3;
-    font-family: 微軟正黑體;
 }
