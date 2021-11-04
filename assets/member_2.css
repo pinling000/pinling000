@@ -68,3 +68,7 @@ img{
     line-height: 180%;
     font-size: 20px;
 }
+
+.button a{
+    color: aliceblue;
+}
