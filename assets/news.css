@@ -1,5 +1,7 @@
 body{
-    background-color: midnightblue;
+    background-color: rgb(38, 56, 83);
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .link{
@@ -8,6 +10,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 微軟正黑體;
+    font-weight: bold;
 }
 a{text-decoration: none;}
 
@@ -16,8 +20,9 @@ a{text-decoration: none;}
     justify-content: center;
     align-items: center;
     width: 1000px;
-    margin-top: 40px;
-    margin-left: 430px;
+    /*margin-top: 40px;
+    margin-left: 430px;*/
+    margin: auto;
 }
 
 .content{
@@ -25,23 +30,25 @@ a{text-decoration: none;}
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid mediumpurple;
+    border: solid whitesmoke;
     border-radius: 25px;
+    font-family: 微軟正黑體;
 }
 
 h1{
-    color: #99BBFF;
+    color: whitesmoke;
 }
 
 
 h2{
     font-size: 30px;
-    color: #99BBFF;
+    color: whitesmoke;
+    font-family: 微軟正黑體;
 }
 
 span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #CCEEFF;
+    color: whitesmoke;
     font-size: 25px;
 }
 
@@ -166,26 +173,31 @@ ol{
 #odd{
     background-color: lightcyan;
     height: 80px;
+    font-family: 微軟正黑體;
+    font-weight: bold;  
+    border-radius: 10px;
 }
 
 #odd p{
-    color: rgb(180, 12, 12);
+    color:  rgb(65, 63, 63)
 }
 
 #odd a{
-    color: rgb(233, 4, 4);
+    color:  rgb(65, 63, 63)
 }
 
 #even{
     height: 80px;
+    font-family: 微軟正黑體;
+    font-weight: normal;   
 }
 
 #even p{
-    color: rgb(202, 202, 202);
+    color:  whitesmoke
 }
 
 #even a{
-    color: rgb(202, 202, 202);
+    color: whitesmoke;
 }
 
 p{
@@ -196,9 +208,10 @@ p{
     display: flex;
     justify-content: flex-end;
     color: cornsilk;
+    font-family: 微軟正黑體;
 }
 .more:hover{
-    color: red;
+    color:rgb(255, 191, 30);
     text-decoration: underline;
 }
 
@@ -213,32 +226,32 @@ p{
 
 .button{
     border: 0;
-    background-color: #9999FF;
-    color:#fff;
+    background-color: rgb(255, 204, 65);
+    color: rgb(65, 63, 63);
     border-radius:10px;
     padding: 5px;
     cursor:pointer;
     font-size: 15px;
-    font-family: "標楷體";
+    font-family: 微軟正黑體;
     font-weight: bolder;
     margin: 10px;
 }
 
 .button:hover{
-    color:#9999FF;
+    color:#183f49;
     background-color:#fff;
-    border:2px #9999FF solid;
+    border:2px #1c4c5f solid;
 }
 
 .icon{
     border: 0;
-    background-color: #9999FF;
-    color:#fff;
+    background-color: rgb(255, 204, 65);
+    color:rgb(65, 63, 63);
     width: 85px;
     height: 20px;
     border-radius:10px;
     font-size: 16px;
-    font-family: "標楷體";
+    font-family: 微軟正黑體;
     font-weight: bolder;
     padding: 5px;
 }
@@ -251,14 +264,17 @@ p{
 
 .tele>p{
     margin: 5px;
+    font-family: 微軟正黑體;
 }
 
 .address>p{
     margin: 10px;
+    font-family: 微軟正黑體;
 }
 
 h3,h3>p{
     font-size: 20px;
+    font-family: 微軟正黑體;
 }
 
 .buttons{
@@ -283,4 +299,5 @@ h3,h3>p{
 
 h3{
     border-left: 10px solid white;
+    font-family: 微軟正黑體;
 }
