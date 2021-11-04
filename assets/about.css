@@ -1,14 +1,14 @@
-@charset "UTF-8";
-
 body{
     background-color: midnightblue;
 }
+
 h1{
     font-size: 45px;
     color: whitesmoke;
     text-align: center;
     font-family: 微軟正黑體;
 }
+
 .link{
     margin-top: 40px;
     margin-bottom: 15px;
