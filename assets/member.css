@@ -1,5 +1,5 @@
 body{
-    background-color: midnightblue;
+    background-color: rgb(38, 56, 83);
 }
 
 .root{
@@ -50,6 +50,11 @@ body{
     font-size: 12px;
 }
 
+.name a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
 img{
     width: 150px;
     height: 200px;
@@ -62,6 +67,19 @@ img{
     font-size: 20px;
 }
 
+.button{
+    margin-top: 40px;
+}
+
 .button a{
-    color: aliceblue;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid 3px #333;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.next{
+    margin-left: 345px;
 }

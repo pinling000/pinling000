@@ -1,5 +1,5 @@
 body{
-    background-color: midnightblue;
+    background-color: rgb(38, 56, 83);
 }
 
 .root{
@@ -19,7 +19,7 @@ body{
 }
 .book{
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     width: 1510px;
     height: 900px; 
     margin-top: 100px;
@@ -45,31 +45,37 @@ body{
 }
 
 .video{
-    padding-left: 10px;
-    border-style: dashed;
-    border-width: 20px;
-    border-radius: 10px;
     padding-left:10px ;
     padding-right: 2px;
-    border-image: url(image/2.png)80 80 100 100 ;
 }
+
+
 h1{
     padding-top: 10px;
     font-size: 60px;
     text-align: center;
     color: 	#003060;
+    margin-left: 35px;
 }
 
 li{
-    text-align: center;
     font-size: 30px;
     color: #004B97;
     line-height: 45px;
     font-weight: bold;
-    text-align: left;
-   
 }   
 
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-
+.frame{
+    position: absolute;
+    z-index: -1;
+    width: 460px;
+    height: 472px;
+    margin-left: 365px;
+    margin-top: -20px;
+}

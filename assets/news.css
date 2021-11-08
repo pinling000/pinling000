@@ -1,6 +1,7 @@
 body{
     background-color: rgb(38, 56, 83);
     max-width: 100%;
+    overflow: scroll;
 }
 
 .link{
@@ -57,8 +58,8 @@ span{
 
 .slides{
     position: relative;
-    width: 600px;
-    height: 450px;
+    width: 655px;
+    height: 495px;
     margin-top: 40px;
     margin-right: 40px;
     padding: 0;
@@ -70,8 +71,8 @@ span{
 img.slide{
     margin: 0;
     padding: 0;
-    width: inherit;
-    height: inherit;
+    width: 655px;
+    height: 495px;
     position: absolute;
     top: 0;
     left: 0;
@@ -169,33 +170,35 @@ ol{
     width: 580px;
 }
 
-#odd{
+.odd{
     background-color: lightcyan;
-    height: 80px;
+    height:auto;
     font-family: 微軟正黑體;
     font-weight: bold;  
     border-radius: 10px;
+    padding: 10px;
 }
 
-#odd p{
+.odd p{
     color:  rgb(65, 63, 63)
 }
 
-#odd a{
+.odd a{
     color:  rgb(65, 63, 63)
 }
 
-#even{
-    height: 80px;
+.even{
+    height: auto;
     font-family: 微軟正黑體;
     font-weight: normal;   
+    padding:10px;
 }
 
-#even p{
+.even p{
     color:  whitesmoke
 }
 
-#even a{
+.even a{
     color: whitesmoke;
 }
 
@@ -215,12 +218,17 @@ p{
 }
 
 .footer{
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    margin: 5px 70px;
     padding: 20px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.footer h3,p{
+    color: whitesmoke;
 }
 
 .button{
@@ -288,15 +296,10 @@ h3,h3>p{
     margin: 100px 0 0 0;
 }
 
-/*.rect>h3::before{
-    content: '';
-    position: relative;
-    border-left: 10px solid white;
-    top: 0px;
-    left: -10px;
-}*/
-
 h3{
+    position: relative;
+    left: -10;
     border-left: 10px solid white;
+    padding-left: 5px;
     font-family: 微軟正黑體;
 }

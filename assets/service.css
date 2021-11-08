@@ -17,8 +17,7 @@ h1{
     margin-bottom: 15px;
     font-size: 25px;
     font-family: 微軟正黑體;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 .frame{
@@ -43,8 +42,8 @@ li{
 }
 
 .list li:hover{
-    color: orangered;
-    text-decoration: underline;
+    color: #ffce48;
+    /*text-decoration: underline;*/
 }
 
 .contents{
@@ -100,6 +99,15 @@ h5{
     font-weight: bold;
 }
 
+.poster{
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+}
+
+.poster:hover {
+    transform: scale(1.5,1.5);
+}
+
 .app{
     display: inline-flex;
     flex-direction: row;
@@ -109,29 +117,40 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
 }
 
-.and a{
+/* .app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+} */
+
+/* .and a{
     color: seashell;
     text-decoration: none;
+}  */
+
+.app img:hover{
+    transform: scale(1.2,1.2);
 }
 
-.and a:hover{
+/* .and a:hover{
     color: blue;
     text-decoration: underline;
-}
+} */
 
-.and a:visited{
+/* .and a:visited{
     color: purple;
     text-decoration: underline;
-}
+} */
 
 .apple{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
 }
 
 .app a{
@@ -150,10 +169,11 @@ h5{
 }
 
 .movie a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .movie a:hover{
     color: blue;
 }
+
